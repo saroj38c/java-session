@@ -2,17 +2,18 @@ package day1;
 
 public class Car {
 
-    // States (Variables/Constants)
-        //Model
-        //Year Made
-        //Top Speed
-        //Engine Power
-        //Color
-        //Mileage
+    // States ( Variables/Constants ) 
+        //model
+        //yearMade
+        //topSpeed
+        //enginePower
+        //color
+        //mileage
 
-    // Behaviors (Function/Method)
-        //Start
-        //Move
-        //Stop
-
+    // Behaviors ( Functions/Methods )
+        //start
+        //move
+	//brake
+        //stop
+	
 }
