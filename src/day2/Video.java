@@ -4,8 +4,11 @@ public class Video {
     // States ( Variables/Constants )
     // thumbnailImage
     // video
+    // videoID
     // videoTitle
     // channelName
+    // channelThumbnail
+    // subscriberCount
     // viewsCount
     // likesCount
     // dislikesCount
@@ -23,4 +26,8 @@ public class Video {
     // comment
     // sortBy
     // screenMode
+    // autoPlay
+    // settings
+    // volumeAdjust
+    // isDownloadable
 }
