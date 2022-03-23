@@ -6,6 +6,7 @@ public class Video {
     // video
     // videoID
     // videoTitle
+    // videoDescription
     // channelName
     // channelThumbnail
     // subscriberCount
