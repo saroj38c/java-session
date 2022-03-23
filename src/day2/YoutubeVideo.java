@@ -1,6 +1,6 @@
 package day2;
 
-public class Video {
+public class YoutubeVideo {
     // States ( Variables/Constants )
     // thumbnailImage
     // video
