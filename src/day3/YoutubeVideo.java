@@ -7,7 +7,7 @@ public class YoutubeVideo {
     // video
     String video;
     // videoID
-    int videoID;
+    String videoID;
     // videoTitle
     String videoTitle;
     // videoDescription
@@ -17,15 +17,15 @@ public class YoutubeVideo {
     // channelThumbnail
     String channelThumbnail;
     // subscriberCount
-    int subscriberCount;
+    long subscriberCount;
     // viewsCount
-    int viewsCount;
+    long viewsCount;
     // likesCount
-    int likesCount;
+    long likesCount;
     // dislikesCount
-    int dislikesCount;
+    long dislikesCount;
     // commentsCount
-    int dislikesCount;
+    long commentsCount;
     // postDate
     String postDate;
 
