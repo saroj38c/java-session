@@ -7,21 +7,21 @@ public class CalculatePercentage {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter mark for Science: ");
-        int science  = scanner.nextInt();
+        float science  = scanner.nextFloat();
 
         System.out.println("Enter mark for Math: ");
-        int math  = scanner.nextInt();
+        float math  = scanner.nextFloat();
 
         System.out.println("Enter mark for English: ");
-        int english  = scanner.nextInt();
+        float english  = scanner.nextFloat();
 
         System.out.println("Enter mark for History: ");
-        int history  = scanner.nextInt();
+        float history  = scanner.nextFloat();
 
         System.out.println("Enter mark for Geography: ");
-        int geography  = scanner.nextInt();
+        float geography  = scanner.nextFloat();
 
-        int total = science + math + english + history + geography;
+        float total = science + math + english + history + geography;
         float percentage = total/5;
 
         System.out.println("Your total percentage is: " + percentage);
