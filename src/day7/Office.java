@@ -24,13 +24,13 @@ public class Office {
         System.out.println(abc.getSalary());
         System.out.println(abc.getHireDate());
 
-        Employee employee1 = new Employee("Employee1",20, null,LocalDate.now());
-        System.out.println(employee1.getName());
-        System.out.println(employee1.getAge());
-        System.out.println(employee1.getSalary());
-        System.out.println(employee1.getHireDate());
-
-        Employee employee2 = new Employee("Employee2",30, 5000,LocalDate.now());
+//        Employee employee1 = new Employee("Employee1",20, null,LocalDate.now());
+//        System.out.println(employee1.getName());
+//        System.out.println(employee1.getAge());
+//        System.out.println(employee1.getSalary());
+//        System.out.println(employee1.getHireDate());
+//
+//        Employee employee2 = new Employee("Employee2",30, 5000,LocalDate.now());
 
 
 
