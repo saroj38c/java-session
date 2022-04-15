@@ -20,5 +20,4 @@ public class WorkingWithNull {
 //       System.out.println(employee.getHireDate());
 
     }
-    }
 }
