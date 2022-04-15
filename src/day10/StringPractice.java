@@ -1,5 +1,4 @@
 package day10;
-import java.io.OutputStream;
 
 public class StringPractice {
     public static void main(String[] args) {
