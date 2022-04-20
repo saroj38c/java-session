@@ -12,7 +12,5 @@ public class BigNumberPractise {
 
         System.out.println(result);
 
-//        BigInteger bigInteger1 = BigInteger.valueOf(100);
-
     }
 }
