@@ -18,6 +18,8 @@ public class SwitchStatement {
             default -> System.out.println("chicken");
         }
 
+
+        //Old way
 //        switch (today){
 //            case "sunday":
 //                System.out.println("Momos");
