@@ -16,6 +16,6 @@ public class TestingEquity {
 //        boolean isEqual2 = subString.equals("Hel");
 //        System.out.println(isEqual2);
 
-    boolean isEqual3 = "hello".equalsIgnoreCase("Hello");
-        System.out.println(isEqual3);
+//    boolean isEqual3 = "hello".equalsIgnoreCase("Hello");
+//        System.out.println(isEqual3);
 }
