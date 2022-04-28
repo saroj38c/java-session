@@ -1,26 +1,59 @@
 package day19;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class ArrayListPractice {
     public static void main(String[] args) {
 
-        ArrayList<String> strings = new ArrayList<>();
-        ArrayList<String> strings1 = new ArrayList<>();
-        strings.add("ABC");
-        strings.add("EDF");
-        strings.add("GHI");
-        System.out.println(strings);
+//        ArrayList<String> strings = new ArrayList<String>();
+//
+//        strings.ensureCapacity(100);
+//
+//        strings.add("ABC");
+//        strings.add("DEF");
+//
+//        System.out.println(strings.toString());
+//
+//        strings.add(0, "Taman");
+//
+//        System.out.println(strings.toString());
+//
+//        strings.set(1, "IJK");
+//
+//        System.out.println(strings.toString());
 
-//        strings.remove(1);
-//        System.out.println(strings);
+//       strings.remove("Taman");
+//
+//        System.out.println(strings.toString());
+//
+        ArrayList<Employee> employees = new ArrayList<>();
+        employees.add(new Employee("ABC", 2000, LocalDate.now()));
+        employees.add(new Employee("DEF", 5000, LocalDate.now()));
+        employees.add(new Employee("IJK", 5000, LocalDate.now()));
+        employees.add(new Employee("LMN", 5000, LocalDate.now()));
 
-        strings.add(1,"Saroj");
-        System.out.println(strings);
+//        System.out.println(employees.get(3));
 
-        strings1.addAll(strings);
-        System.out.println(strings1.size());
-        strings1.clear();
-        System.out.println(strings1.isEmpty());
+
+        //Remove specific employee detail
+//        employees.remove(new Employee("DEF", 5000, LocalDate.now()));
+//        System.out.println(employees);
+
+        //Remove multiple employee detail
+        ArrayList<Employee> employeesToBeRemoved = new ArrayList<>();
+        employeesToBeRemoved.add(new Employee("IJK", 5000, LocalDate.now()));
+        employeesToBeRemoved.add(new Employee("LMN", 5000, LocalDate.now()));
+
+        employees.removeAll(employeesToBeRemoved);
+
+        System.out.println(employees);
+
+
+
+//        System.out.println(employees.isEmpty());
+//        employees.clear();
+//        System.out.println(employees.isEmpty());
+
     }
 }
