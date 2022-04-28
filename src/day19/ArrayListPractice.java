@@ -49,8 +49,6 @@ public class ArrayListPractice {
 
         System.out.println(employees);
 
-
-
 //        System.out.println(employees.isEmpty());
 //        employees.clear();
 //        System.out.println(employees.isEmpty());
