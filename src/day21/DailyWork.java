@@ -1,7 +1,8 @@
 package day21;
 
-import java.util.ArrayList;
 import java.util.EnumSet;
+
+import static day21.WeekDay.MONDAY;
 
 public class DailyWork {
     public static void main(String[] args) {
@@ -15,20 +16,26 @@ public class DailyWork {
 //        days.add(Day.SUNDAY);
 
 //        System.out.println(days);
+        int weekDay = 0;
 
-        EnumSet<Day> allDays = EnumSet.allOf(Day.class);
+
+        if (weekDay == MONDAY.getAbbr()) {
+            System.out.println("Shop is open");
+        }
+
+        EnumSet<WeekDay> allDays = EnumSet.allOf(WeekDay.class);
         System.out.println(allDays);
 
-        EnumSet<Day> nonDays = EnumSet.noneOf(Day.class);
+        EnumSet<WeekDay> nonDays = EnumSet.noneOf(WeekDay.class);
         System.out.println(nonDays);
 
-        EnumSet<Day> rangeDay = EnumSet.range(Day.MONDAY, Day.FRIDAY);
+        EnumSet<WeekDay> rangeDay = EnumSet.range(MONDAY, WeekDay.FRIDAY);
         System.out.println(rangeDay);
 
-        EnumSet<Day> specificDay = EnumSet.of(Day.SUNDAY);
+        EnumSet<WeekDay> specificDay = EnumSet.of(WeekDay.SUNDAY);
         System.out.println(specificDay);
 
-        EnumSet<Day> specificMultipleDay = EnumSet.of(Day.MONDAY, Day.WEDNESDAY, Day.FRIDAY);
+        EnumSet<WeekDay> specificMultipleDay = EnumSet.of(MONDAY, WeekDay.WEDNESDAY, WeekDay.FRIDAY);
         System.out.println(specificMultipleDay);
     }
 }
