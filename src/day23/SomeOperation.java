@@ -3,7 +3,6 @@ package day23;
 import java.io.IOException;
 
 public class SomeOperation{
-
     public void divideTwoNumber(int a,int b) throws ArithmeticException, NullPointerException, IndexOutOfBoundsException{
         float total = a / b;
         System.out.println(total);
@@ -18,7 +17,7 @@ public class SomeOperation{
 
     }
 
-    public void SomeRuntimeException() throws IOException {
+    public void someFunctionThatThrowsIOException() throws IOException {
 
     }
 }

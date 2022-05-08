@@ -4,18 +4,18 @@ import java.io.IOException;
 
 public class ExceptionPractice {
     public static void main(String[] args) {
-        SomeOperation so = new SomeOperation();
-        try{
-            so.divideTwoNumber(4,6);
-        }
-        catch(ArithmeticException | NullPointerException | IndexOutOfBoundsException e){
+        SomeOperation someOperation = new SomeOperation();
+
+        try {
+            someOperation.divideTwoNumber(4,0);
+        }catch (ArithmeticException | NullPointerException | IndexOutOfBoundsException ex){
             System.out.println("Sending these errors to analytics server");
         }
 
         try {
-            so.SomeRuntimeException();
-        } catch (IOException ex) {
-            ex.printStackTrace();
+            someOperation.someFunctionThatThrowsIOException();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }
