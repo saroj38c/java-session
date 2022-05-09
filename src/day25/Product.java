@@ -10,7 +10,6 @@ public class Product implements Comparable<Product>{
         this.price = price;
     }
 
-
     @Override
     public String toString() {
         return "Product{" +
