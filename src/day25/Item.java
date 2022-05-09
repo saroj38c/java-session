@@ -1,6 +1,6 @@
 package day25;
 
-public class Item{
+public class Item implements Comparable<Item>{
     private String name;
     private float price;
 
@@ -15,5 +15,10 @@ public class Item{
                 "name='" + name + '\'' +
                 ", price=" + price +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Item o) {
+        return Float.compare(this.price,o.price);
     }
 }

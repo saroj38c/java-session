@@ -8,13 +8,13 @@ public class BoundedGeneric {
         var product2 = new Product("B", 800);
         var product3 = new Product("C", 100);
 
-        maximum(product1, product2, product3);
+//        maximum(product1, product2, product3);
 
         var item1 = new Item("A", 1000);
         var item2 = new Item("B", 800);
         var item3 = new Item("C", 100);
 
-//        maximum(item1, item2, item3); // Not allowed by bounded type variable because Comparable is not implemented
+        maximum(item1, item2, item3); // Not allowed by bounded type variable because Comparable is not implemented
     }
 
     public static <E extends Comparable<E>> void maximum(E a, E b, E c){
